@@ -1,5 +1,6 @@
 @extends('layouts.index')
 @section('content')
+<<<<<<< HEAD
   <div id="map"></div>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
     <script>
@@ -18,4 +19,7 @@
         });
       }
     </script>
+=======
+    <h1>Map</h1>
+>>>>>>> origin/master
 @endsection
