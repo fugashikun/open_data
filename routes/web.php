@@ -14,3 +14,7 @@
 Route::get('/', 'PagesController@getHome');
 Route::get('/map', 'PagesController@getMap');
 Route::get('/info', 'PagesController@getInfo');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
