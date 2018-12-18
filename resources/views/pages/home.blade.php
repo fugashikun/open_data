@@ -1,4 +1,6 @@
 @extends('layouts.index')
 @section('content')
-    <h1>Home</h1>
+User name:razuppi<br>
+Level:0<br>
+ex:0
 @endsection
