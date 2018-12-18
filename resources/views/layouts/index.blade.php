@@ -5,7 +5,7 @@
 @include('layouts.header')
 <div class="container">
     <div class="row" id="content">
-        <div class="col">
+        <div class="col"> 
         @include('layouts.nav')
         </div>
         <div class="col-6">

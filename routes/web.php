@@ -10,7 +10,6 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/home', 'WebPagesController@getHome');
 Route::get('/map', 'WebPagesController@getMap');
 Route::get('/info', 'WebPagesController@getInfo');
