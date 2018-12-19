@@ -1,6 +1,9 @@
 @extends('layouts.index')
 @section('content')
-User name:razuppi<br>
-Level:0<br>
-ex:0
+<div align="center">
+<p>User name : razuppi</p>
+<p>Level : 0</p>
+<p>ex : 0</p>
+<img src="assets/razuppi.gif">
+</div>
 @endsection

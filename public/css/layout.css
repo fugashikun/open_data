@@ -1,0 +1,26 @@
+#map{
+    width: 500px;
+    height: 600px;
+}
+.nav-item{
+    background: lightgreen;
+}
+.nav-item.active{
+    background: gold;
+}
+.nav-item:hover{
+    
+    opacity: 0.8;
+}
+.jumbotron-head {
+    background-repeat: no-repeat;
+    background-image: url("../assets/headerimage_2.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.icon,.text-muted{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
